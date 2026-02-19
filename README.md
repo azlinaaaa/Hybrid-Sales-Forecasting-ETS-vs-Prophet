@@ -115,9 +115,6 @@ The project generates multiple charts for performance evaluation and forecasting
 ### 📌 Monthly Sales Trend
 ![Monthly Sales](montly_sales.png)
 
-### 📌 Sales Forecasting Report
-![Sales Forecasting Report](Sales_Forcasting_Report.png)
-
 ### 📌 Seasonality Boxplot
 ![Seasonality Boxplot](Seasonality_boxplot.png)
 
