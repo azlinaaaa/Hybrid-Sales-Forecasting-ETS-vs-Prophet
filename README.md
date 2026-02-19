@@ -1,10 +1,10 @@
-# 📈 Hybrid Sales Forecasting (ETS vs Prophet)
+# Hybrid Sales Forecasting (ETS vs Prophet)
 
 A professional time series forecasting project that applies a **hybrid forecasting strategy** by combining classical statistical models (ETS) with modern machine learning forecasting (Prophet), optimized using rolling cross-validation and hyperparameter tuning.
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 Sales forecasting is critical for business planning, inventory optimization, and decision-making.  
 However, different product categories often show different demand behaviors:
@@ -16,7 +16,7 @@ To address this, this project implements a **Hybrid Forecasting Framework**, sel
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
 - Group-level forecasting by **Category** (can be extended to Region)
 - Monthly time series aggregation from transactional retail data
@@ -31,7 +31,7 @@ To address this, this project implements a **Hybrid Forecasting Framework**, sel
 
 ---
 
-## 🧠 Models Implemented
+##  Models Implemented
 
 ### 1. ETS Baseline (Holt-Winters)
 Used as a strong benchmark model, especially effective for stable demand patterns.
@@ -48,7 +48,7 @@ Prophet is enhanced with:
 
 ---
 
-## 📊 Model Selection Results
+##  Model Selection Results
 
 The best model was chosen per category based on RMSE performance:
 
@@ -65,7 +65,7 @@ Model selection count:
 
 ---
 
-## 🔍 Best Prophet Parameters (Per Category)
+##  Best Prophet Parameters (Per Category)
 
 | Category          | changepoint_prior_scale | seasonality_prior_scale | holidays_prior_scale | mode      |
 |------------------|--------------------------|--------------------------|----------------------|----------|
@@ -75,7 +75,7 @@ Model selection count:
 
 ---
 
-## 📂 Outputs Generated
+##  Outputs Generated
 
 All results are exported automatically into:
 
