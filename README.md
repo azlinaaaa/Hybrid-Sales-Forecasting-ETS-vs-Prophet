@@ -14,6 +14,9 @@ However, different product categories often show different demand behaviors:
 
 To address this, this project implements a **Hybrid Forecasting Framework**, selecting the best forecasting model per category.
 
+This project uses the E-Commerce Orders Dataset from Kaggle, which contains online retail order transactions such as order dates, product categories, and sales values. The dataset was used to perform category-level sales forecasting.
+
+Source: https://www.kaggle.com/datasets/tanishqpratap/e-commerce-orders-dataset
 ---
 
 ##  Key Features
