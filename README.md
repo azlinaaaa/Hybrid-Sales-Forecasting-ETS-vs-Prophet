@@ -107,7 +107,7 @@ This table shows:
 The project generates multiple charts for performance evaluation and forecasting insights:
 
 ### 📌 ETS Residual Image
-![ETS Residual Image](ETS_residual_image.png)
+![ETS Residual Image](ets_residuals.png)
 
 ### 📌 Forecast Comparison
 ![Forecast Comparison](forecast_comparison.png)
@@ -116,7 +116,7 @@ The project generates multiple charts for performance evaluation and forecasting
 ![Monthly Sales](montly_sales.png)
 
 ### 📌 Seasonality Boxplot
-![Seasonality Boxplot](Seasonality_boxplot.png)
+![Seasonality Boxplot](seasonality_boxplot.png)
 
 ---
 
