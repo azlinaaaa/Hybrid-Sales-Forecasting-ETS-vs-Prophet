@@ -113,7 +113,7 @@ The project generates multiple charts for performance evaluation and forecasting
 ![Forecast Comparison](forecast_comparison.png)
 
 ### 📌 Monthly Sales Trend
-![Monthly Sales](montly_sales.png)
+![Monthly Sales](monthly_sales.png)
 
 ### 📌 Seasonality Boxplot
 ![Seasonality Boxplot](seasonality_boxplot.png)
