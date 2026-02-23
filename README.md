@@ -148,7 +148,4 @@ This hybrid forecasting framework provides:
 ## 👤 Author
 
 **Norazlina Shariff**  
-Data Analyst Portfolio Project  
-Time Series Forecasting • Prophet • ETS • Power BI Analytics
-
 ---
