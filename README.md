@@ -1,10 +1,51 @@
+This project uses the **E-Commerce Orders Dataset** from Kaggle, which contains online retail order transactions such as order dates, product categories, and sales values. The dataset was used to perform category-level sales forecasting.
+
+**Source:**  
+https://www.kaggle.com/datasets/tanishqpratap/e-commerce-orders-dataset
+
+---
+
 ## 💼 Business Impact
 
 This project demonstrates how a hybrid forecasting strategy can directly improve operational and financial decision-making in retail businesses.
 
 ---
 
-### 📦 1. Inventory Optimization
+## 📊 Forecasting Visual Insights
+
+### 📌 ETS Residual Analysis
+![ETS Residual Image](ets_residuals.png)
+
+The residual analysis evaluates model stability and identifies whether forecast errors are randomly distributed. This helps ensure the ETS baseline is statistically reliable before deployment.
+
+---
+
+### 📌 Forecast Comparison (ETS vs Prophet)
+![Forecast Comparison](forecast_comparison.png)
+
+This comparison chart visualizes the performance difference between ETS and Prophet models across categories, supporting data-driven model selection.
+
+---
+
+### 📌 Monthly Sales Trend
+![Monthly Sales](monthly_sales.png)
+
+This trend visualization shows historical sales patterns, enabling:
+
+- Demand seasonality understanding  
+- Revenue trend analysis  
+- Business cycle identification  
+
+---
+
+### 📌 Seasonality Boxplot
+![Seasonality Boxplot](seasonality_boxplot.png)
+
+The seasonality boxplot highlights monthly variation patterns and volatility differences across time, helping identify stable vs high-variance categories.
+
+---
+
+## 📦 1. Inventory Optimization
 
 More accurate category-level forecasting enables companies to:
 
@@ -16,7 +57,7 @@ By selecting the best-performing model per category, the system ensures forecast
 
 ---
 
-### 📊 Model Selection Summary
+## 📊 Model Selection Summary
 
 The hybrid framework selects the best model per category based on RMSE performance:
 
@@ -26,7 +67,7 @@ The hybrid framework selects the best model per category based on RMSE performan
 | Office Supplies  | 7611.67  | 8820.22        | ETS ✅         |
 | Technology       | 10098.34 | 8197.56        | Prophet ✅     |
 
-**Model Selection Count:**
+### Model Selection Count
 
 | Model    | Selected Categories |
 |----------|--------------------|
@@ -37,7 +78,7 @@ This shows that different demand behaviors require different modeling strategies
 
 ---
 
-### 📈 Revenue & Financial Planning Impact
+## 📈 Revenue & Financial Planning Impact
 
 With monthly forecast outputs and confidence intervals:
 
@@ -61,19 +102,43 @@ The inclusion of **95% confidence intervals** helps decision-makers manage uncer
 
 ---
 
-### 🔬 Technical Strength Behind the Business Value
+## 🔬 Technical Strength Behind the Business Value
 
-| Component                     | Business Advantage |
-|------------------------------|--------------------|
-| Rolling Cross-Validation     | Realistic performance evaluation |
-| Hyperparameter Tuning        | Optimized forecasting accuracy |
-| Model Benchmarking (ETS vs Prophet) | Reduced deployment risk |
-| Hybrid Model Strategy        | Adaptable to demand behavior |
-| Automated Reporting Outputs  | Faster decision-making |
+| Component                          | Business Advantage |
+|------------------------------------|--------------------|
+| Rolling Cross-Validation           | Realistic performance evaluation |
+| Hyperparameter Tuning              | Optimized forecasting accuracy |
+| Model Benchmarking (ETS vs Prophet)| Reduced deployment risk |
+| Hybrid Model Strategy              | Adaptable to demand behavior |
+| Automated Reporting Outputs        | Faster decision-making |
 
 ---
 
-## 🚀 Key Value
+## 🎯 Project Positioning
+
+### Is this Data Science or Data Analyst?
+
+| Area                         | Covered in This Project |
+|------------------------------|------------------------|
+| Time Series Modeling         | ✅ |
+| Hyperparameter Tuning        | ✅ |
+| Cross-Validation             | ✅ |
+| Business Forecast Interpretation | ✅ |
+| Inventory Decision Support   | ✅ |
+| Model Comparison Framework   | ✅ |
+
+This project fits **Applied Data Science with strong Business Analytics orientation**.
+
+It demonstrates the ability to:
+
+- Build production-style forecasting pipelines  
+- Compare statistical vs ML approaches  
+- Translate technical results into operational value  
+- Support strategic business planning  
+
+---
+
+## 🚀 Key Value to Companies
 
 - Improves demand forecasting accuracy  
 - Reduces inventory-related financial risk  
