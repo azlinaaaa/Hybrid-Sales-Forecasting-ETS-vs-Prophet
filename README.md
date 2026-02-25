@@ -114,30 +114,6 @@ The inclusion of **95% confidence intervals** helps decision-makers manage uncer
 
 ---
 
-## 🎯 Project Positioning
-
-### Is this Data Science or Data Analyst?
-
-| Area                         | Covered in This Project |
-|------------------------------|------------------------|
-| Time Series Modeling         | ✅ |
-| Hyperparameter Tuning        | ✅ |
-| Cross-Validation             | ✅ |
-| Business Forecast Interpretation | ✅ |
-| Inventory Decision Support   | ✅ |
-| Model Comparison Framework   | ✅ |
-
-This project fits **Applied Data Science with strong Business Analytics orientation**.
-
-It demonstrates the ability to:
-
-- Build production-style forecasting pipelines  
-- Compare statistical vs ML approaches  
-- Translate technical results into operational value  
-- Support strategic business planning  
-
----
-
 ## 🚀 Key Value to Companies
 
 - Improves demand forecasting accuracy  
